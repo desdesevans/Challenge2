@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Incident Map</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+      <header>
+        <h1>Incident Map</h1>
+      </header>
+      <div>
+        <section>
+        <h2>Map Key</h2>
+        <p>Three-Tier Serverity:</p>
+        <ul>
+          <li class="green">Low - Safe to Visit</li>
+          <li class="yellow">Medium - Hazardous</li>
+          <li class="red">High - Dangerous</li>
+        </ul>
+        <p class="specialtag">Structural Issues</p>
+        <button type="button" onclick="alert('Rite Aid,1004 E Michigan Ave,Lansing, MI 48912,Low Severity,Location is safe to visit ')" id="tag" >See Location Update</button>
+
+      </section>
+    </div>
+    <img src="mapview.png" alt="Photo of Map">
   </body>
 </html>
